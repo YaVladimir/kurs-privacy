@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — Курс под рукой</title>
+<meta name="description" content="Политика конфиденциальности приложения «Курс под рукой» для Android">
+<style>
+  :root {
+    --bg: #f7f8ff;
+    --text: #1b1c22;
+    --muted: #5b5e6c;
+    --accent: #4c5d8b;
+    --card: #ffffff;
+    --line: #dde1f0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121318;
+      --text: #e4e5ee;
+      --muted: #a4a7b6;
+      --accent: #afc0f4;
+      --card: #1b1c22;
+      --line: #2e3140;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 16px 64px;
+  }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+  header img { width: 56px; height: 56px; border-radius: 14px; flex: none; }
+  header div { min-width: 0; }
+  h1 { font-size: 24px; line-height: 1.25; margin: 0; overflow-wrap: break-word; hyphens: auto; }
+  .app { color: var(--muted); margin: 2px 0 0; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 22px; margin: 0 0 10px; }
+  a { color: var(--accent); }
+  .summary {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 16px 20px;
+  }
+  .summary p:last-child { margin-bottom: 0; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon-512.png" alt="">
+    <div>
+      <h1>Политика конфиденциальности</h1>
+      <p class="app">Приложение «Курс под рукой» для Android</p>
+    </div>
+  </header>
+
+  <div class="summary">
+    <p><strong>Коротко:</strong> приложение не собирает, не хранит на серверах и не передаёт третьим лицам никаких
+    персональных данных. В нём нет рекламы, аналитики, регистрации и аккаунтов.</p>
+  </div>
+
+  <h2>Какие данные обрабатываются</h2>
+  <p>Всё, что вы вводите и настраиваете, хранится только на вашем устройстве:</p>
+  <ul>
+    <li>выбранные валюты, пары валют для виджетов и последняя набранная сумма;</li>
+    <li>скачанные курсы валют — чтобы конвертер работал без интернета.</li>
+  </ul>
+  <p>Эти данные не покидают устройство. Они удаляются вместе с приложением или при очистке его данных
+  в настройках Android.</p>
+
+  <h2>Сетевые запросы</h2>
+  <p>Приложение обращается в интернет только для того, чтобы скачать публичные курсы валют:</p>
+  <ul>
+    <li><a href="https://www.cbr.ru/">Центральный банк Российской Федерации</a> (www.cbr.ru) — официальные курсы;</li>
+    <li><a href="https://www.exchangerate-api.com/">ExchangeRate-API</a> (open.er-api.com) — курсы валют,
+    которых нет у ЦБ.</li>
+  </ul>
+  <p>В запросах не передаётся ничего о вас или ваших расчётах. Как и при любом обращении к сайту, эти серверы
+  видят IP-адрес устройства; как они его обрабатывают, описано в их собственных политиках.</p>
+
+  <h2>Разрешения</h2>
+  <ul>
+    <li><strong>Доступ в интернет</strong> — скачивать курсы валют.</li>
+    <li><strong>Сведения о состоянии сети</strong> — загрузить курсы, как только появилось подключение.</li>
+  </ul>
+  <p>Приложение не запрашивает доступ к контактам, местоположению, камере, микрофону, файлам и другим
+  личным данным.</p>
+
+  <h2>Резервное копирование</h2>
+  <p>Если на устройстве включено резервное копирование Android, система может сохранить настройки приложения
+  в вашей резервной копии и восстановить их на новом телефоне. Разработчик к этим копиям доступа не имеет.</p>
+
+  <h2>Дети</h2>
+  <p>Приложение подходит для любого возраста и не собирает данные, в том числе данные детей.</p>
+
+  <h2>Изменения политики</h2>
+  <p>Если политика изменится, новая версия будет опубликована на этой странице с новой датой.</p>
+
+  <h2>Контакты</h2>
+  <p>Вопросы о приложении и этой политике: <a href="mailto:yakovenko.vladimir95@yandex.ru">yakovenko.vladimir95@yandex.ru</a></p>
+
+  <footer>Редакция от 28 сентября 2026 года.<br>Разработчик — Владимир Яковенко.</footer>
+</main>
+</body>
+</html>
